@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 export function useVisualMode(initial) {
   const [mode, setMode] =  useState(initial);
@@ -24,3 +24,5 @@ export function useVisualMode(initial) {
 
   return {mode, transition, back}
 }
+
+export default useVisualMode
