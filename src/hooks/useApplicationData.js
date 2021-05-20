@@ -11,15 +11,15 @@ export default function useApplicationData() {
 
   const getNumOfSpots = (day, appointments) => {
     const numOfSpots = day.appointments.filter((id) => appointments[id].interview === null);
-    console.log("num of spots----------", numOfSpots.length);
+
     return numOfSpots.length;
   };
 
   const updateNumOfSpots = (selectedDay, days, appointments) => {
     const day = days.find((day) => day.name === selectedDay);
-    console.log("day-----------", day);
+
     const spots = getNumOfSpots(day, appointments);
-    console.log("spots........", spots);
+
     const newDay = {
       ...day,
       spots,
