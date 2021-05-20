@@ -9,9 +9,13 @@ This project combines a concise API with a WebSocket server to build a realtime 
 ## UI/UX Screenshots
 
 !["Home page on load"](https://github.com/austinkret/scheduler/blob/master/docs/1.%20Load%20page.png)
+_Homepage on load_
 !["Create New Appointment"](https://github.com/austinkret/scheduler/blob/master/docs/2.%20Create%20New%20Appointment.png)
+_Create a new appointment_
 !["Rendering Animation"](https://github.com/austinkret/scheduler/blob/master/docs/3.%20Rendering%20Animation.png)
+_Rendering animation shown for saving and deleting while the request processes_
 !["Delete Confirmation"](https://github.com/austinkret/scheduler/blob/master/docs/4.%20Delete%20Confirmation.png)
+_Confirmation box that appears to ensure that you wanted to delete the indicated interview_
 
 ## Setup
 
