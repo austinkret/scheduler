@@ -63,13 +63,7 @@ $appointment-height: 11rem;
 
     &--show {
       color: rgba($booked-color, $active-opacity);
-      background: linear-gradient(
-        90deg,
-        rgba($booked-color, $active-opacity),
-        rgba($booked-color, $active-opacity) 8px,
-        rgba($booked-color, $inactive-opacity) 0,
-        rgba($booked-color, $inactive-opacity)
-      );
+      background: linear-gradient(90deg, rgba($booked-color, $active-opacity), rgba($booked-color, $active-opacity) 8px, rgba($booked-color, $inactive-opacity) 0, rgba($booked-color, $inactive-opacity));
 
       &:hover {
         color: darken($white, 5%);
@@ -104,7 +98,6 @@ $appointment-height: 11rem;
 
   &:last-of-type &__add,
   &:last-of-type &__card {
-    display: none;
   }
 
   &__actions {
